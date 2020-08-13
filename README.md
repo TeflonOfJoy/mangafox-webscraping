@@ -1,2 +1,2 @@
-# mangafox-webscraper
-Scraper for http://fanfox.net/ just to learn how scraping works
+# mangafox-webscraping
+Websrcraping of http://fanfox.net/ just to learn how it works
