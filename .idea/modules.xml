@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mangago-webscraping.iml" filepath="$PROJECT_DIR$/mangago-webscraping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mangafox-webscraping.iml" filepath="$PROJECT_DIR$/mangafox-webscraping.iml" />
     </modules>
   </component>
 </project>

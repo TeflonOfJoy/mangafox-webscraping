@@ -8,7 +8,7 @@ import java.io.*;
 public class WebScrape {
     public static void main(String[] args) {
         try {
-            File manga = new File("manga.txt");
+            File manga = new File("scrape.txt");
             if (manga.createNewFile()) {
                 System.out.println("File created");
             } else {
@@ -24,15 +24,15 @@ public class WebScrape {
         int i = 1;
         String url = "http://fanfox.net/directory/";
         while ( i < 394){
-            url = "http://fanfox.net/directory/" + String.valueOf(i) + ".html";
+            url = url + String.valueOf(i) + ".html";
             try {
                 final Document document = Jsoup.connect(url).get();
-                BufferedWriter writer = new BufferedWriter(new FileWriter("manga.txt", true));
+                BufferedWriter writer = new BufferedWriter(new FileWriter("scrape.txt", true));
                 Elements a = document.select("body.bg-gary div.container div.line-list div.manga-list-1 ul.manga-list-1-list.line li p.manga-list-1-item-title a");
                 for (Element element : a){
                     writer.append(element.attr("title"));
                     writer.append(" ");
-                    writer.append("http://fanfox.net" + element.attr("href"));
+                    writer.append("http://fanfox.net").append(element.attr("href"));
                     writer.newLine();
                 }
                 writer.close();
