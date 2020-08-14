@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a779283-16d3-4b08-94ce-0ab354b4dbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manga.txt" beforeDir="false" afterPath="$PROJECT_DIR$/manga.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebScrape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebScrape.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a779283-16d3-4b08-94ce-0ab354b4dbe6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597402902628</updated>
-      <workItem from="1597402903685" duration="403000" />
+      <workItem from="1597402903685" duration="717000" />
     </task>
     <servers />
   </component>

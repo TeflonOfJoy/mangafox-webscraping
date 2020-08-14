@@ -2,7 +2,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
 import java.io.*;
 
 public class WebScrape {
@@ -22,9 +21,9 @@ public class WebScrape {
             e.printStackTrace();
         }
         int i = 1;
-        String url = "http://fanfox.net/directory/";
+        String url;
         while ( i < 394){
-            url = url + String.valueOf(i) + ".html";
+            url = "http://fanfox.net/directory/" + String.valueOf(i) + ".html";
             try {
                 final Document document = Jsoup.connect(url).get();
                 BufferedWriter writer = new BufferedWriter(new FileWriter("scrape.txt", true));
