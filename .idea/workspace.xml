@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a779283-16d3-4b08-94ce-0ab354b4dbe6" name="Default Changelist" comment="" />
+    <list default="true" id="5a779283-16d3-4b08-94ce-0ab354b4dbe6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mangafox-webscraping/WebScrape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mangafox-webscraping/WebScrape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebScrape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebScrape.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1g5SLMKqvhkjGUrYAT57HVhrWUE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,29 +32,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jsoup-1.13.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jsoup-1.13.1.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="WebScrape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WebScrape" />
       <module name="mangafox-webscraping" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1597402902628</updated>
       <workItem from="1597402903685" duration="1059000" />
+      <workItem from="1609863897906" duration="45000" />
+      <workItem from="1609863968469" duration="4565000" />
+      <workItem from="1609870316233" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="Last commit">
       <created>1597403925468</created>
@@ -83,39 +84,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Last commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Last commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="493" y="1" key="CommitChangelistDialog2" timestamp="1597403924913">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="493" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597403924913" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1597402949921">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597402949921" />
-    <state width="1877" height="152" key="GridCell.Tab.0.bottom" timestamp="1597403961325">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597403961325" />
-    <state width="1877" height="152" key="GridCell.Tab.0.center" timestamp="1597403961324">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597403961324" />
-    <state width="1877" height="152" key="GridCell.Tab.0.left" timestamp="1597403961324">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597403961324" />
-    <state width="1877" height="152" key="GridCell.Tab.0.right" timestamp="1597403961324">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597403961324" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1597402952333">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597402952333" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1597403933729">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597403933729" />
   </component>
 </project>

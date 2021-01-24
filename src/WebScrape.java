@@ -3,7 +3,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLConnection;
 
 public class WebScrape {
     public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class WebScrape {
         }*/
         int i = 1;
         String url;
-        final String folderPath = "C:\\Users\\Fernand\\Desktop\\mangafox-webscraping-master\\img\\";
+        final String folderPath = "C:\\Users\\Emanuel\\Documents\\GitKraken\\mangafox-webscraping\\img\\";
         while ( i < 396){
             url = "http://fanfox.net/directory/" + i + ".html";
             try {
@@ -41,6 +43,7 @@ public class WebScrape {
                 for (Element element : img){
                     URL urli = new URL(element.attr("src"));
                     String name = element.attr("alt");
+                    System.out.println(element.attr("alt"));
                     if (name.contains("?") || name.contains("!") || name.contains("<") || name.contains(">") || name.contains("*") || name.contains("\\") || name.contains(":") || name.contains("/")){
                         name = name.replace("?", "");
                         name = name.replace("!", "");
@@ -51,7 +54,9 @@ public class WebScrape {
                         name = name.replace(":", "");
                         name = name.replace("/", "");
                     }
-                    InputStream in = urli.openStream();
+                    URLConnection uc = urli.openConnection();
+                    uc.addRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)");
+                    InputStream in = uc.getInputStream();
                     OutputStream out = new BufferedOutputStream(new FileOutputStream( folderPath + name + ".png"));
                     for (int b; (b = in.read()) != -1;) {
                         out.write(b);
